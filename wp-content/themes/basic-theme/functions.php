@@ -47,6 +47,11 @@ add_filter( 'template_include', 'var_template_include', 1000 );
 				'menu-footer' => esc_html__( 'Меню в футере', 'basic' ),
 			)
 		);
+
+		// wp_nav_menu( array( 
+		// 	'theme_location' => 'menu-header',
+		// 	'walker' => new Walker_Nav_Menu
+		// ) );
 	
 		add_theme_support(
 			'html5',
@@ -249,5 +254,3 @@ function custom_pagination() {
     echo '</ul>';
     }
     }
-
-	

@@ -2,10 +2,10 @@ const swiper = new Swiper('.hero-slider', {
     // Optional parameters
    // direction: 'vertical',
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false,
+    // },
     effect: "fade",
     // If we need pagination
     pagination: {

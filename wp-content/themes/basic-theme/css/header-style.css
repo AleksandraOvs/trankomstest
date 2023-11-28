@@ -38,6 +38,36 @@ header.header {
     justify-content: center;
 }
 
+.menu-item ul.sub-menu {
+    display: none;
+    border-top: 3px solid rgba(22, 159, 219, 0.75);
+    background: rgba(49,49,49,.9);
+    z-index: 5;
+    position: absolute;
+    left: -60%;
+    top: 37px;
+    /* bottom: -10px; */
+    width: 250px;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul.sub-menu li {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+ul.sub-menu li a {
+    text-transform: none;
+    line-height: 1.2;
+}
+
+.menu-item.menu-item-has-children:hover ul.sub-menu{
+    display:block;
+    opacity: 1;
+}
+
+
 span.sr-only {
     display: none;
 }
@@ -199,7 +229,25 @@ ul.header__menu__messengers li{
     transition: all .3s linear;
 }
 
+
+.sub-menu li:hover:after{
+    content:none;
+}
+
+.sub-menu li:hover {
+    background: transparent;
+    transition: all .3s linear;
+}
+
+.sub-menu li:hover a{
+    color: rgba(22, 159, 219, 1);
+}
+
 .header__menu li {
+    position: relative;
+    width: 115px;
+    box-sizing: border-box;
+    text-align: center;
     position: relative;
     padding: 7px 20px;
     transition: all .3s linear;
