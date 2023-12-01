@@ -894,3 +894,21 @@ ul.breadcrumbs__list {
         font-size: 20px;
     }
 }
+
+
+.wp-block-media-text .wp-block-media-text__content {
+    padding: 0 2%;
+}
+
+.wp-block-media-text.is-stacked-on-mobile.icon-marks figure {
+    width: 60px;
+}
+
+.icon-marks {
+    grid-template-columns: 5% auto !important;
+}
+
+.icon-marks {
+    grid-template-columns: 5% auto !important;
+    margin-top: 20px;
+}
