@@ -79,7 +79,7 @@ a.button.fill:hover, a.button:hover{
 
 
 h1{
-    font-size: 68px;
+    font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
@@ -405,7 +405,7 @@ span.swiper-pagination-bullet{
 }
 
 .slider-content {
-    width: 60%;
+    width: 70%;
     padding-top: 7%;
     /* align-self: center; */
 }
@@ -740,6 +740,9 @@ ul.breadcrumbs__list {
     }
 }
 @media (max-width: 1024px){
+    .slider-content {
+        padding-top: 15%;
+    }
     /* main.main {
         padding-top: 50px;
     } */
@@ -769,6 +772,19 @@ ul.breadcrumbs__list {
     }
 }
 
+@media (max-width: 768px){
+    .footer-left {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .footer-center {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+
 @media (max-width: 576px){
     
     .slider-content__buttons {
@@ -791,6 +807,81 @@ ul.breadcrumbs__list {
     form.wpcf7-form p .wpcf7-form-control-wrap {
         margin-top: 0;
     }
+
+    footer#footer .fixed-container {
+        display: block;
+    }
+
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer-left .footer__logo {
+        margin: 0 auto;
+    }
+
+    .footer__sidebar1 {
+        text-align: center;
+    }
+
+    .footer__menu li a {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+
+    .footer__menu li:not(:last-child){
+        border-bottom: .5px dotted rgba(22,159,219, 0.5);
+    }
+
+    .footer-center{
+        margin-top:20px;
+    }
+
+    li.frc__contacts__item a span {
+        display: none;
+    }
+
+    li.footer__menu__messengers__item a span {
+        display: none;
+    }
+
+    ul.footer__right__contacts {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    ul.footer__menu__messengers.flex.align-center {
+        display: flex;
+        width: 50%;
+    }
+
+    .footer-right.footer-contacts {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-right.footer-contacts .button {
+        margin-top: 0;
+    }
+
+    ul.footer__right__contacts li, .footer__menu__messengers li {
+        padding: 5px 7px;
+    }
+
+    .footer-right.footer-contacts .button {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+
 }
 
 @media (max-width: 360px){
