@@ -7,6 +7,10 @@ jQuery(document).ready(function($)  {
       $(this).toggleClass('_open');
       menu.toggleClass('_open');
       body.toggleClass('_fixed');
+      elem.addEventListener( "DOMMouseScroll", elem.onmousewheel = function( e ) {
+               e.preventDefault();
+            }, false );
+        
     });
 
     const headerFront = document.querySelector('.header__top');
