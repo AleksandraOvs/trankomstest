@@ -594,6 +594,7 @@ span.burger__line:after{
         top: unset;
         width: auto;
         left: unset;
+        padding: 0;
     }
 
     ul.header__menu__messengers,
