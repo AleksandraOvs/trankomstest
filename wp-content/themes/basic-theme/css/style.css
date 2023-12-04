@@ -948,3 +948,7 @@ ul.breadcrumbs__list {
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
 }
+
+.b24-form-padding-side {
+    padding: 0 !important;
+}
