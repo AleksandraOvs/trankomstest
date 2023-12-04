@@ -515,6 +515,7 @@ span.burger__line:after{
     .header__menu li a {
         text-align: left;
         line-height: 2;
+        font-size: 20px;
     }
 
     .header__bottom .fixed-container {
