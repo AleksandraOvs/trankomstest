@@ -933,3 +933,8 @@ ul.breadcrumbs__list {
     opacity: 1 !important;
     font-family: "Manrope", sans-serif !important;
 }
+
+.b24-form-control-string .b24-form-control:focus, .b24-form-control-list .b24-form-control:focus, .b24-form-control-text .b24-form-control:focus, .b24-form-control-select .field-item:focus{
+    background:transparent !important;
+    border-color: #00AEEF !important;
+}
