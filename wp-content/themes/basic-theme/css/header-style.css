@@ -680,7 +680,7 @@ span.burger__line:after{
     }
 
     .header__bottom {
-        width: 80%;
+        width: 100%;
     }
 
     ul.header__top__right__contacts li:not(:first-child) {
