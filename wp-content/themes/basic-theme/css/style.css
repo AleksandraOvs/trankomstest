@@ -926,3 +926,7 @@ ul.breadcrumbs__list {
     border-bottom: 1px solid #fff;
     color:#fff !important;
 }
+
+.b24-form-control-select-label, .b24-form-control-label{
+    color: #fff;
+}
