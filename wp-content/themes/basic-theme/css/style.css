@@ -928,5 +928,5 @@ ul.breadcrumbs__list {
 }
 
 .b24-form-control-select-label, .b24-form-control-label{
-    color: #fff;
+    color: #fff !important;
 }
