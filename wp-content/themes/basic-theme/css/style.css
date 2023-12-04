@@ -920,10 +920,10 @@ ul.breadcrumbs__list {
 }
 
 .b24-form-control-string .b24-form-control, .b24-form-control-list .b24-form-control, .b24-form-control-text .b24-form-control, .b24-form-control-select .field-item {
-    border-radius: 4px;
-    height: auto;
+    border-radius: 4px !important;
+    height: auto !important;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff !important;
     color:#fff !important;
 }
 
