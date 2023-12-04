@@ -633,6 +633,12 @@ span.wpcf7-form-control-wrap input, span.wpcf7-form-control-wrap textarea {
     padding: 7px 10px;
 }
 
+.form-inner-flex p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 span.wpcf7-form-control-wrap input:focus, span.wpcf7-form-control-wrap textarea:focus{
     outline-color:1px solid #169fdb;
     border:none;
@@ -925,6 +931,7 @@ ul.breadcrumbs__list {
     border: none;
     border-bottom: 1px solid #fff !important;
     color:#fff !important;
+    background-image: none !important;
 }
 
 .b24-form-control-select-label, .b24-form-control-label{
