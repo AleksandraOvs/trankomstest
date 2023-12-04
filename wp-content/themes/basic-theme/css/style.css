@@ -929,4 +929,6 @@ ul.breadcrumbs__list {
 
 .b24-form-control-select-label, .b24-form-control-label{
     color: #fff !important;
+    font-weight:400 !important;
+    opacity: 1 !important;
 }
