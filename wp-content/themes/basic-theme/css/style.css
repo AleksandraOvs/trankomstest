@@ -651,18 +651,19 @@ span.wpcf7-form-control-wrap input:active, span.wpcf7-form-control-wrap textarea
 }
 
 .wpcf7-submit.has-spinner{
-    display: block;
-    background: #169fdb;
-    text-align: center;
-    padding: 10px 25px;
-    color: #fff;
-    border-radius: 3px;
-    width: 100%;
-    margin-top: 15px;
-    font-size: 20px;
-    border: 1px solid #169fdb;
-    transition: all .3s linear;
-}
+        display: block;
+        background: #169fdb;
+        text-align: center;
+        padding: 10px 25px;
+        color: #fff;
+        border-radius: 3px;
+        max-width: 450px;
+        /* margin-top: 30px; */
+        margin: 30px auto 0;
+        font-size: 20px;
+        border: 1px solid #169fdb;
+        transition: all .3s linear;
+    }
 
 form.wpcf7-form p .wpcf7-form-control-wrap {
     /* margin-top: 20px; */
