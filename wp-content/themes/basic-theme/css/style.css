@@ -670,6 +670,12 @@ form.wpcf7-form p .wpcf7-form-control-wrap {
     display: block;
 }
 
+form.wpcf7-form h3 {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .fancybox-slide--html .fancybox-close-small {
     padding: 3px;
 }
