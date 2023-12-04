@@ -913,3 +913,16 @@ ul.breadcrumbs__list {
     grid-template-columns: 5% auto !important;
     margin-top: 20px;
 }
+
+.b24-form-wrapper {
+    background: transparent !important;
+    color: #fff;
+}
+
+.b24-form-control-string .b24-form-control, .b24-form-control-list .b24-form-control, .b24-form-control-text .b24-form-control, .b24-form-control-select .field-item {
+    border-radius: 4px;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:#fff !important;
+}
