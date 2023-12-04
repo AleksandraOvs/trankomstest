@@ -432,7 +432,7 @@ span.burger__line:after{
     .header__bottom {
         position: fixed;
         transform: translateX(120%);
-    width: 40%;
+    width: 60%;
     height: 100vh;
     right: 0;
     background: rgb(19 19 19 / 95%);
@@ -530,6 +530,7 @@ span.burger__line:after{
 
     ul.sub-menu li a {
         line-height: 2;
+        font-size: 20px;
     }
 
     ul.sub-menu li:before {
@@ -626,9 +627,13 @@ span.burger__line:after{
     }
 }
 
+
 @media (max-width: 480px){
     .header__top .fixed-container {
         flex-direction: column;
+    }
+    .header__bottom {
+    width: 100%;
     }
 
     .header__top__right {
