@@ -659,7 +659,7 @@ span.wpcf7-form-control-wrap input:active, span.wpcf7-form-control-wrap textarea
 }
 
 form.wpcf7-form p .wpcf7-form-control-wrap {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: block;
 }
 
