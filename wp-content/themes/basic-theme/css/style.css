@@ -937,4 +937,14 @@ ul.breadcrumbs__list {
 .b24-form-control-string .b24-form-control:focus, .b24-form-control-list .b24-form-control:focus, .b24-form-control-text .b24-form-control:focus, .b24-form-control-select .field-item:focus{
     background:transparent !important;
     border-color: #00AEEF !important;
+    font-family: "Manrope", sans-serif !important;
+}
+
+.b24-form-field-agreement .b24-form-field-agreement-link {
+    font-size: 11px;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
 }
