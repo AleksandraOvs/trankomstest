@@ -34,37 +34,7 @@
 				</div>
 
 				<div class="header__top__right">
-					
-				<?php 
-						if( $contacts = carbon_get_theme_option('contacts' ) ) {
-    				?>
-   				    <ul class="header__top__right__contacts">
-        		        <?php
-					        foreach( $contacts as $contact ) {
-    			            ?>
-     				        <li class="htr__contacts__item">
-    					        <a href="<?php echo $contact[ 'crb_contact_link']; ?>" class="htr__contacts__item__link">
-								<?php
-									if ($contact['crb_contact_image']){
-								?>
-  				                    <?php
-    				                    $img_contact = wp_get_attachment_image_url( $contact['crb_contact_image'], 'full' );
-				                    ?>		
-					                <img class="htr__contacts__item__link__img" width="25" height="25" src="<?php echo $img_contact; ?>" alt="<?php echo $contact[ 'crb_contact_name']; ?>">
-									<?php } ?>
-
-									<span>
-										<?php echo $contact[ 'crb_contact_name']; ?>
-									</span>
-  						        </a>
-    				        </li>
-				            <?php
-					            }
-    			            ?>
-    			    </ul>
-    				<?php
-					    }
-					?>   
+				  
 					<?php 
 						if( $messengers = carbon_get_theme_option('messengers' ) ) {
     				?>
