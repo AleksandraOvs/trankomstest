@@ -198,10 +198,10 @@ main.main {
     border-radius: 100%;
 }
 
-.page-container .fixed-container {
+/* .page-container .fixed-container {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .page-container {
     margin-top: 20px;
@@ -682,6 +682,23 @@ form.wpcf7-form h3 {
 
 textarea.wpcf7-form-control.form-textarea {
     height: 100px;
+}
+
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 0;
+    left: calc(50% - 36px);
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    /* position: relative; */
 }
 /* 
 section.page-section {
