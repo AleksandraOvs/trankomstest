@@ -250,7 +250,7 @@ ul.header__menu__messengers li{
 
 .header__menu li {
     position: relative;
-    width: 115px;
+    /* width: 115px; */
     box-sizing: border-box;
     text-align: center;
     position: relative;
