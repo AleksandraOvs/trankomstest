@@ -52,9 +52,10 @@ if ( have_posts() ) {
 	// Load posts loop.
 	while ( have_posts() ) {
 		the_post();
-
-		the_title();
-
+	?>
+		<h2> <?php the_title() ?> </h2>
+		<?php the_content() ?>
+	<?php
 		//get_template_part( 'temps/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
 	}
 
