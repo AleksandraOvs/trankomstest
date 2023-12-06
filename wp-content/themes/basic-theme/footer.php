@@ -21,6 +21,21 @@ echo do_shortcode("$shcode"); ?>
 
 
 </div>
+
+<div id="popup-delcalc" class="popup" style="display: none;">
+<?php 
+if ($popupdelcalc_code = carbon_get_theme_option('crb_delcalc_code') && $popupdelcalc_head = carbon_get_theme_option('crb_delcalc_head')  ){
+	echo '<h3>' . $popupdelcalc_head . '</h3>';
+	if ($popupdelcalc_desc = carbon_get_theme_option('crb_delcalc_desc')) : echo '<p class="popup-description">' . $popupdelcalc_desc . '</p>'; endif;
+
+	//echo '<p>' . $popup_desc . '</p>';
+};
+?>
+<?php
+echo $popupdelcalc_code; ?>
+</div>
+
+
 </main>
 
 

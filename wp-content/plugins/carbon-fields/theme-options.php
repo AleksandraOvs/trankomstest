@@ -99,5 +99,16 @@ Container::make('theme_options', 'Контакты')
                 Field::make('text', 'crb_contact_shortcode', 'Шорткод из CF7')
                     ->set_width(33),
                 
-        ));
+        ))
+
+        ->add_tab(__('Расчет доставки'), array (
+
+            Field::make('text', 'crb_delcalc_head', 'Заголовок окна')
+                ->set_width(33),
+            Field::make('rich_text', 'crb_delcalc_desc', 'Описание')
+                ->set_width(33),
+            Field::make('text', 'crb_delcalc_code', 'html code / shortcode')
+                ->set_width(33),
+            
+    ));
 

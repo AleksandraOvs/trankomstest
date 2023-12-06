@@ -37,7 +37,7 @@
                         <?php 
                             if ($hero_slide['crb_slider_but2_link'] && $hero_slide['crb_slider_but2'] ){
                                     ?>
-                                        <a class="button" href="<?php echo $hero_slide['crb_slider_but2_link'] ?>">
+                                        <a class="button" data-fancybox href="<?php echo $hero_slide['crb_slider_but2_link'] ?>">
                                             <?php echo $hero_slide['crb_slider_but2']  ?>
                                         </a>
                                     <?php
