@@ -1,3 +1,8 @@
+.e-con-inner {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
 html{
     overflow-x: hidden;
   }
