@@ -613,7 +613,7 @@ span.burger__line:after{
         top: unset;
         width: auto;
         left: unset;
-        padding: 0;
+        padding: 20px 0;
     }
 
     ul.header__menu__messengers,
