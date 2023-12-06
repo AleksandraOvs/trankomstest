@@ -440,6 +440,9 @@ span.burger__line:after{
     /* .header__top__right {
     display: none;
     } */
+    .header__top__right .button {
+        height: auto;
+    }
 
     .header__bottom {
         position: fixed;
