@@ -658,6 +658,7 @@ span.burger__line:after{
 
     .header__top__right {
         flex-wrap: wrap;
+        margin-top: 20px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -700,6 +701,11 @@ span.burger__line:after{
 
     ul.header__top__right__contacts li:not(:first-child) {
         margin-left: 10px;
+    }
+
+    .header__top {
+        padding-top:20px;
+        padding-bottom:20px;
     }
 
 }
