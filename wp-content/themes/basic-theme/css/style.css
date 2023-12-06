@@ -206,6 +206,19 @@ main.main {
     transition: all .3s linear;
 }
 
+.arrow-up.show:hover svg{
+    transform: translateY(-5px);
+    transition: transform .3s linear;
+}
+
+.arrow-up.show svg{
+    transition: transform .3s linear;
+}
+
+.arrow-up.show:hover svg path{
+    fill: rgb(22, 159, 219);
+}
+
 /* .page-container .fixed-container {
     display: flex;
     justify-content: space-between;
