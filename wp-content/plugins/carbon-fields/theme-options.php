@@ -107,7 +107,7 @@ Container::make('theme_options', 'Контакты')
                 ->set_width(33),
             Field::make('rich_text', 'crb_delcalc_desc', 'Описание')
                 ->set_width(33),
-            Field::make('text', 'crb_delcalc_code', 'html code / shortcode')
+            Field::make('rich_text', 'crb_delcalc_code', 'html code / shortcode')
                 ->set_width(33),
             
     ));
