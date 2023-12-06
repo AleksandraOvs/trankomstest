@@ -936,6 +936,12 @@ ul.breadcrumbs__list {
         margin: 20px auto;
     }
 
+    ul.posts__list {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        gap: 20px;
+    }
+
 
 
 }
