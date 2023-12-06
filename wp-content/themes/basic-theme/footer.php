@@ -18,21 +18,18 @@ if ($popup_head = carbon_get_theme_option('crb_contact_head')  ){
 <?php
 $shcode = carbon_get_theme_option('crb_contact_shortcode');
 echo do_shortcode("$shcode"); ?>
-
-
 </div>
 
 <div id="popup-delcalc" class="popup" style="display: none;">
 <?php 
-if ($popupdelcalc_code = carbon_get_theme_option('crb_delcalc_code') && $popupdelcalc_head = carbon_get_theme_option('crb_delcalc_head')  ){
+if ($popupdelcalc_head = carbon_get_theme_option('crb_delcalc_head')  ){
 	echo '<h3>' . $popupdelcalc_head . '</h3>';
 	if ($popupdelcalc_desc = carbon_get_theme_option('crb_delcalc_desc')) : echo '<p class="popup-description">' . $popupdelcalc_desc . '</p>'; endif;
 
 	//echo '<p>' . $popup_desc . '</p>';
 };
 ?>
-<?php
-echo $popupdelcalc_code; ?>
+<script data-b24-form="inline/14/q9d87m" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b23892814/crm/form/loader_14.js');</script>
 </div>
 
 

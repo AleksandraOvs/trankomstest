@@ -501,6 +501,10 @@ span.swiper-pagination-bullet{
     
 }
 
+p.popup-description {
+    margin-bottom: 30px;
+}
+
 /* 
 .swiper-slide.services-slider__slide.swiper-slide-active {
     width: 400px !important;
