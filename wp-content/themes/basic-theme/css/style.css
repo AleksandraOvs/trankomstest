@@ -974,11 +974,7 @@ ul.breadcrumbs__list {
 }
 
 .icon-marks {
-    grid-template-columns: 5% auto !important;
-}
-
-.icon-marks {
-    grid-template-columns: 5% auto !important;
+    grid-template-columns: 70px auto !important;
     margin-top: 20px;
 }
 
