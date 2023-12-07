@@ -130,7 +130,7 @@ p{
 
 .fixed-container{
     box-sizing: border-box;
-    width: 1440px;
+    max-width: 1440px;
     /* padding: 0 5%; */
     margin: 0 auto;
   }
@@ -791,7 +791,7 @@ ul.breadcrumbs__list {
     transform: translateY(-50px);
 }
 
-/* @media (max-width: 1440px){ */
+@media (max-width: 1440px){ 
     .fixed-container{
         width: 100%;
         padding: 0 5%;
@@ -800,7 +800,7 @@ ul.breadcrumbs__list {
         padding-left: 5% !important;
         padding-right: 5% !important;
     } */
-/* } */
+} 
 @media (max-width: 1024px){
     .slider-content {
         padding-top: 15%;
