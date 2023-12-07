@@ -796,10 +796,10 @@ ul.breadcrumbs__list {
         width: 100%;
         padding: 0 5%;
     }
-    .e-con-inner {
+    /* .e-con-inner {
         padding-left: 5% !important;
         padding-right: 5% !important;
-    }
+    } */
 /* } */
 @media (max-width: 1024px){
     .slider-content {
