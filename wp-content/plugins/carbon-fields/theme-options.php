@@ -10,6 +10,11 @@ Container::make('theme_options', 'Контакты')
         ->set_page_menu_position( 2 )
         ->set_icon ('dashicons-admin-generic')
         ->add_tab(__('Контакты'), array (
+            Field::make('text', 'crb_phone', 'Номер телефона')
+            ->set_width(50),
+            Field::make('text', 'crb_phone_link', 'Ссылка на номер')
+            ->help_text('ссылка на номер вида tel:8800808080')
+            ->set_width(50),
             Field::make('complex', 'contacts', 'Контакты')
             ->add_fields( array(
                 Field::make('text', 'crb_contact_name', 'Название')
@@ -19,6 +24,7 @@ Container::make('theme_options', 'Контакты')
                 Field::make('text', 'crb_contact_link', 'Ссылка контакта')
                     ->set_width(33),
             )),
+
         ))
 
         ->add_tab(__('Мессенджеры'), array (
