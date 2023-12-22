@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
     <div class="site-container">
-	<div class="show-temp"><?php echo get_current_template(); ?></div>
+	<!-- <div class="show-temp"><?php //echo get_current_template(); ?></div> -->
 	<header class="header">
 	
         <div href="<?php echo site_url() ?>" class="header__top">
