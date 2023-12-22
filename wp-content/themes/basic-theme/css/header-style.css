@@ -96,14 +96,33 @@ a.site-header__logo {
 
 .header__top__right {
     display: flex;
+    width: 50%;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
+}
+
+.header__top__right__phone {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+a.header__top__right__phone__link {
+    font-size: 24px;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+
+a.header__top__right__phone__link:hover {
+    color: #169fdb;
+    transition: all .3s linear;
 }
 
 .header__top__right .button {
     align-self: center;
     width: 150px;
-    margin-right: 20px;
     display: block;
     padding: 7.3px 20px;
 }
@@ -177,11 +196,10 @@ li.social__item .social__link img {
 }
 
 .header__top__left {
-    width: 170px;
-    height: 50px;
+    width: 250px;
+    height: 100%;
     transition: all .5s ease-in;
 }
-
 
 .header a {
     display: block;
@@ -413,9 +431,9 @@ span.burger__line:after{
 
 
 @media (max-width: 1024px){
-    header.header {
+    /* header.header {
         position: fixed;
-    }
+    } */
     button.header__burger {
         display:block;
         z-index:10;
@@ -428,6 +446,22 @@ span.burger__line:after{
     li#menu-item-380 {
         background: transparent;
     }
+
+    .header__top__right {
+        width: auto;
+    }
+
+    .header__top__right__phone {
+        width: auto;
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+
+    .header__top__right .button {
+        margin-right: 15px;
+    }
+
+
 
     /* .header__top__right {
         display: block;
@@ -692,6 +726,16 @@ span.burger__line:after{
 
     a.htr__contacts__item__link img{
         margin-right:0;
+    }
+
+    .header__top__right__phone {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    a.header__top__right__phone__link {
+        font-size: 18px;
     }
 
     .header__top__right .button {

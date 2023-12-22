@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
     <div class="site-container">
-	<!-- <div class="show-temp"><?php //echo get_current_template(); ?></div> -->
+	<div class="show-temp"><?php echo get_current_template(); ?></div> 
 	<header class="header">
 	
         <div href="<?php echo site_url() ?>" class="header__top">
@@ -34,7 +34,14 @@
 				</div>
 
 				<div class="header__top__right">
-				  
+					<?php
+					if (carbon_get_theme_option('crb_phone') && $phone_link = carbon_get_theme_option('crb_phone_link')){
+						?>
+					<div class="header__top__right__phone">
+						<a class="header__top__right__phone__link" href="<?php echo $phone_link ?>"><?php echo carbon_get_theme_option('crb_phone'); ?></a>
+					</div>
+					<?php }
+					?>
 					<?php 
 						if( $messengers = carbon_get_theme_option('messengers' ) ) {
     				?>
