@@ -102,9 +102,9 @@ a.site-header__logo {
 }
 
 .header__top__right__phone {
-    width: 100%;
-    text-align: right;
-    margin-bottom: 10px;
+        width: 50%;
+        text-align: right;
+        margin-right: 20px;
 }
 
 a.header__top__right__phone__link {
