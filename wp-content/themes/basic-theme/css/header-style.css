@@ -2,7 +2,6 @@
 styles for header theme basic
 */
 header.header {
-    position: fixed;
     background: rgba(49,49,49,.85);
     width: 100%;
     font-size:16px;
@@ -431,9 +430,9 @@ span.burger__line:after{
 
 
 @media (max-width: 1024px){
-    /* header.header {
+    header.header {
         position: fixed;
-    } */
+    }
     button.header__burger {
         display:block;
         z-index:10;
