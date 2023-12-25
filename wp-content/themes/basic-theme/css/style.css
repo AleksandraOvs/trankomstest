@@ -804,7 +804,7 @@ ul.breadcrumbs__list {
 } 
 @media (max-width: 1024px){
     .slider-content {
-        padding-top: 15%;
+        padding-top: 20%;
     }
     /* main.main {
         padding-top: 50px;
@@ -858,7 +858,9 @@ ul.breadcrumbs__list {
 
 
 @media (max-width: 576px){
-    
+    .slider-content {
+        padding-top: 30%;
+    }
     .slider-content__buttons {
         flex-direction: column;
     }
@@ -973,6 +975,10 @@ ul.breadcrumbs__list {
 
     .page-section__header {
         height: 300px;
+    }
+
+    section.section-hero {
+        padding-top: 30%;
     }
 }
 
