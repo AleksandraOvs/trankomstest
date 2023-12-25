@@ -95,7 +95,7 @@ a.site-header__logo {
 
 .header__top__right {
     display: flex;
-    width: 50%;
+    width: calc(100% - 300px);
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
@@ -455,10 +455,10 @@ span.burger__line:after{
         margin-bottom: 0;
         margin-right: 15px;
     }
-
+/* 
     .header__top__right .button {
         margin-right: 15px;
-    }
+    } */
 
 
 
