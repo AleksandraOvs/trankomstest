@@ -819,6 +819,10 @@ ul.breadcrumbs__list {
     .page-header__inner {
         padding-top: 90px;
     }
+
+    .category-container {
+        padding-top: 90px;
+    }
 }
 
 @media (max-width: 992px){
@@ -986,6 +990,9 @@ ul.breadcrumbs__list {
     }
 
     .page-header__inner {
+        padding-top: 40%;
+    }
+    .category-container {
         padding-top: 40%;
     }
 }
