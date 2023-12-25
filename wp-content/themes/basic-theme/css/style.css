@@ -967,10 +967,13 @@ ul.breadcrumbs__list {
     }
 
     ul.posts__list {
-        display: grid;
-        grid-template-columns: repeat(1, 100%);
-        gap: 20px;
+            display: block;
     }
+
+    ul.posts__list li:not(:last-child){
+        margin-bottom: 30px;
+    }
+
 
 
 
