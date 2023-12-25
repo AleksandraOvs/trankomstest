@@ -22,12 +22,15 @@ get_header(); ?>
 	<?php 
 		if (!is_front_page()){
 			?>
-			<div class="fixed-container">
+			<div class="page-header__inner">
+				<div class="fixed-container">
             <ul class="breadcrumbs__list">
                 <?php echo true_breadcrumbs(); ?>
             </ul>
 
         	</div>
+			</div>
+			
 		<?php
 		}
 	?>
