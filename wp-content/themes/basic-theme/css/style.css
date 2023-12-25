@@ -812,6 +812,9 @@ ul.breadcrumbs__list {
     li.social__item {
         background: #313131;
     }
+    section.page-section {
+        padding-top: 70px;
+    }
 }
 
 @media (max-width: 992px){
@@ -846,6 +849,10 @@ ul.breadcrumbs__list {
     .footer-center {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    section.page-section {
+        padding-top: 90px;
     }
 }
 
