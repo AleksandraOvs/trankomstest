@@ -970,6 +970,10 @@ ul.breadcrumbs__list {
     section.page-section {
         padding-top: 180px;
     }
+
+    .page-section__header {
+        height: 300px;
+    }
 }
 
 @media (max-width: 360px){
