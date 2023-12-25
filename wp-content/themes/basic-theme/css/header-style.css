@@ -2,7 +2,7 @@
 styles for header theme basic
 */
 header.header {
-    /* position: fixed; */
+    position: fixed;
     background: rgba(49,49,49,.85);
     width: 100%;
     font-size:16px;
