@@ -12,12 +12,14 @@
 
 get_header(); ?>
 
-	
+
+<div class="category-container">
 <div class="fixed-container">
     <ul class="breadcrumbs__list">
         <?php echo true_breadcrumbs(); ?>
     </ul>
     <h2 class="toleft"><?php echo single_cat_title() ?></h2>
+</div>
 </div>
 	
 <div class="page-container">
