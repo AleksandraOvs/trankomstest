@@ -9,14 +9,12 @@
 	<link rel="icon" href="images/favicons/favicon.ico"> <!-- 32×32 -->
 	<link rel="icon" href="images/favicons/favicon.svg" type="image/svg+xml">
 	<link rel="apple-touch-icon" href="images/favicons/favicon.png">  <!-- 180×180 -->
-	<!-- <link rel="manifest" href="manifest.webmanifest"> -->
 	<?php wp_head(); ?>
 	
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
     <div class="site-container">
-	<div class="show-temp"><?php echo get_current_template(); ?></div> 
 	<header class="header">
 	
         <div href="<?php echo site_url() ?>" class="header__top">
