@@ -17,7 +17,7 @@ use Carbon_Fields\Field;
 // ));
 
 Container::make('post_meta', 'Добавить в портфолио')
-            ->show_on_template('services-template.php')
+            ->show_on_template(array ('services-template.php', 'services-template2.php'))
             ->add_fields (array (
                Field::make('text', 'crb_portfolio_link', 'Youtube link')
                ->set_width(33),
