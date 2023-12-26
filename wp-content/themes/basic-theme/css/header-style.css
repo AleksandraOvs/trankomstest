@@ -484,6 +484,7 @@ span.burger__line:after{
 
     .header__bottom {
         position: fixed;
+        display: none;
         transform: translateX(120%);
     width: 60%;
     height: 100vh;
@@ -560,6 +561,7 @@ span.burger__line:after{
     } */
 
     .header__bottom._open{
+        display: block;
         z-index:5;
         transform: translateX(0);
         opacity: 1;
