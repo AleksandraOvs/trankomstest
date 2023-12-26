@@ -18,7 +18,15 @@ get_header();
 
 <div class="services-content">
     <div class="fixed-container">
-    <video class="post-header__video" pip="false" noaudio autoplay muted loop>
+
+    <video class="post-header__video"
+    poster="
+    <?php
+      if ($poster_id = carbon_get_post_meta( get_the_ID(), 'crb_portfolio_placeholder' )){
+            echo wp_get_attachment_url( $poster_id );     
+        }
+        ?>
+    " pip="false" noaudio autoplay muted loop>
         <?php
             $gallery  = carbon_get_post_meta( get_the_ID(), 'crb_portfolio_sources' );
             foreach( $gallery  as $i => $item ){      
