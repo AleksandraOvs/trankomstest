@@ -50,7 +50,7 @@ a{
 }
 
 a:hover{
-    color: #858585;
+    color: #fff;
     filter:drop-shadow(0 0 5px rgba(22,159,219, 0.85));
     transition: all .3s linear;
 }
