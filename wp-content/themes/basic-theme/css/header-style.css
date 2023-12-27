@@ -288,7 +288,7 @@ ul.header__menu__messengers li{
     transition: transform .4s linear;
 }
 
-.current_page_item.current-menu-item {
+/* .current_page_item.current-menu-item {
     background: rgba(22,158,207,.5);
     transition: all .3s linear;
 }
@@ -296,7 +296,7 @@ ul.header__menu__messengers li{
 .current_page_item.current-menu-item:hover{
     background: #313131;
     transition: all .3s linear;
-}
+} */
 
 .header__menu li:hover:after{
     transform: scale(1);
