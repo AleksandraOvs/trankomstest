@@ -288,12 +288,12 @@ ul.header__menu__messengers li{
     transition: transform .4s linear;
 }
 
-li#menu-item-380 {
+.current-menu-item {
     background: rgba(22,158,207,.5);
     transition: all .3s linear;
 }
 
-li#menu-item-380:hover{
+.current-menu-item:hover{
     background: #313131;
     transition: all .3s linear;
 }
