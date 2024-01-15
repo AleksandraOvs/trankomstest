@@ -792,6 +792,20 @@ ul.breadcrumbs__list {
     transform: translateY(-50px);
 }
 
+.cta-widget {
+    text-align: center;
+    padding: 20px 10%;
+    background: #169FDB42;
+    border-radius: 3px;
+    border: 1px solid #169fdbd9;
+    box-shadow: 0 0 10px 0 rgba(21, 159, 219, 0.2);
+}
+
+.cta-widget a.popup.button.fill {
+    display: block;
+    margin: 30px auto 20px;
+}
+
 @media (max-width: 1440px){ 
     .fixed-container{
         max-width: 100%;
@@ -851,6 +865,11 @@ ul.breadcrumbs__list {
 
     .slide-image img {
         object-position: bottom;
+    }
+
+    .cta-widget h2 {
+        line-height: 1.2;
+        font-size: 20px !important;
     }
 }
 
@@ -1011,6 +1030,10 @@ ul.breadcrumbs__list {
     }
     .services-header {
         padding-top: 140px;
+    }
+    .cta-widget h2 {
+        line-height: 1.2;
+        font-size: 18px !important;
     }
 }
 

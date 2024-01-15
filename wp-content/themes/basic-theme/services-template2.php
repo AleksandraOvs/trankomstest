@@ -41,10 +41,19 @@ get_header();
 
 <div class="post__inner">
     <div class="post-container">
-    
-        
         <?php the_content() ?>
+
+        
+        <?php if ( is_active_sidebar( 'page-sidebar1' ) ){ ?>
+            <div class="cta-widget">
+                <?php dynamic_sidebar( 'page-sidebar1' ); ?>
+            </div>
+        <?php } ?>
     </div>
+
+    
+
+
 </div>
 
 

@@ -20,13 +20,16 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'cp35526_tkomsdb' );
+//define( 'DB_NAME', 'cp35526_tkomsdb' );
+define( 'DB_NAME', 'tkoms_db' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'cp35526_tkomsdb' );
+//define( 'DB_USER', 'cp35526_tkomsdb' );
+define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', 'zhuUmz' );
+//define( 'DB_PASSWORD', 'zhuUmz' );
+define( 'DB_PASSWORD', '' );
 
 /** Имя сервера базы данных */
 define( 'DB_HOST', 'localhost' );
